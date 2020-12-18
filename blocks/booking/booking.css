@@ -95,6 +95,10 @@
   z-index: 5;
 }
 
+.booking__button:hover {
+  box-shadow: 3px 3px 5px;
+}
+
 .booking__text {
   color: white;
   font-size: 16px;
