@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+  overflow: hidden;
 }
 
 .booking__content {
@@ -19,7 +20,6 @@
   font-size: 22px;
   padding-left: 15px;
   line-height: 1.2;
-  z-index: 5;
 }
 
 .booking__academy-name {
@@ -30,8 +30,7 @@
   font-weight: 100;
   color: #BCBCBC;
   margin: 0;
-  letter-spacing: 10px;
-  z-index: 5;
+  letter-spacing: 10.3px;
 }
 
 .booking__course-name {
@@ -43,7 +42,6 @@
   text-transform: uppercase;
   color: #ff6400;
   font-stretch: condensed;
-  z-index: 5;
 }
 
 .booking__about {
@@ -55,12 +53,10 @@
   color: #ff6400;
   font-stretch: expanded;
   letter-spacing: 0.5px;
-  z-index: 5;
 }
 
 .booking__skills {
   list-style: none;
-  z-index: 5;
 }
 
 .booking__skill {
@@ -92,7 +88,6 @@
   margin-left: 15px;
   margin-top: 40px;
   cursor: pointer;
-  z-index: 5;
 }
 
 .booking__button:hover {
@@ -112,19 +107,139 @@
   position: absolute;
   right: -240px;
   top: 20px;
-  z-index: 1;
+  z-index: -3;
 }
 
 .booking__foto-max {
   position: absolute;
   right: 30px;
-  bottom: 20px;
-  z-index: 2;
+  bottom: 0;
+  z-index: -2;
 }
 
 .booking__max-orlov-img-txt {
   position: absolute;
   right: 15px;
   bottom: 60px;
-  z-index: 3;
+  z-index: -1;
+}
+
+@media all and (max-width: 980px) {
+  .booking__foto-max {
+    max-height: 463px;
+  }
+
+  .booking__max-orlov-img-txt {
+    max-height: 400px;
+  }
+
+  .booking__paint {
+  max-height: 438px;
+  top: 210px;
+  }
+}
+
+@media all and (max-width: 570px) {
+
+  .booking__format {
+    font-size: 19px;
+  }
+
+  .booking__academy-name {
+    font-size: 19px;
+    letter-spacing: 5px;
+  }
+
+  .booking__about {
+    font-size: 21px;
+  }
+
+  .booking__course-name {
+    font-size: 67px;
+  }
+
+  .booking__skills {
+    padding-left: 27px;
+  }
+
+  .booking__skill-icon {
+    width: 18px;
+  }
+
+  .booking__skill-text {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+
+  .booking__paint {
+    top: 150px
+    }
+
+    .booking__foto-max {
+      right: -125px;
+      bottom: -12px;
+    }
+
+    .booking__max-orlov-img-txt {
+      right: -23px;
+    }
+
+    .booking__text {
+      background-color: rgba(0, 54, 123, 0.5);
+  }
+}
+
+@media all and (max-width: 380px) {
+  .booking__format {
+    padding-left: 8px;
+  }
+
+  .booking__academy-name {
+    font-size: 13px;
+    padding-left: 8px;
+    letter-spacing: 5.3px;
+  }
+
+  .booking__course-name {
+    font-size: 53px;
+    padding-left: 5px;
+  }
+
+  .booking__about {
+    font-size: 17px;
+    padding-left: 8px;
+  }
+
+  .booking__skills {
+    padding-left: 10px;
+  }
+
+  .booking__skill-icon {
+    width: 14px;
+  }
+
+  .booking__skill-text {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .booking__text {
+    font-size: 16px;
+    padding-left: 8px;
+    background-color: rgba(0, 54, 123, 0.5);
+}
+
+.booking__paint {
+  right: -199px;
+  }
+
+  .booking__foto-max {
+    right: -163px;
+    bottom: -22px;
+  }
+
+  .booking__max-orlov-img-txt {
+    right: -41px;
+    bottom: 60px;
+  }
 }

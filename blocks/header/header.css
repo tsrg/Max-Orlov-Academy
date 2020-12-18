@@ -16,6 +16,7 @@
   padding-left: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin: 0;
 }
 
 .header__duration {
@@ -25,4 +26,21 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 30px;
+  margin: 0;
+}
+
+@media all and (max-width: 415px) {
+  .header__content {
+    display: block;
+  }
+
+  .header__start-date {
+    padding-bottom: 5px;
+    padding-left: 15px;
+  }
+
+  .header__duration {
+    padding-left: 15px;
+    padding-top: 0;
+  }
 }
