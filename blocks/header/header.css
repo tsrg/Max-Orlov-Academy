@@ -1,0 +1,28 @@
+.header {
+  background-color: #ff6400;
+}
+
+.header__content {
+  max-width: 996px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.header__start-date {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000033;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__duration {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000033;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}

@@ -1,0 +1,10 @@
+.page {
+  font-family: 'AvenirNext', Arial, sans-serif;
+  background-color: #ffffff;
+  color: black;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  min-width: 320px;
+}
