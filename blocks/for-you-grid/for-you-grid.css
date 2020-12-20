@@ -55,6 +55,7 @@
   width: 100%;
   background-color: #00367B;
   border-radius: 20px;
+  transition: ease-in 0.5s;
 }
 
 .for-you-grid__item:hover {

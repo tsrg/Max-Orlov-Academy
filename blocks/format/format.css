@@ -1,11 +1,12 @@
 .format {
-    background-color: #FF6400;
+   
 }
 
 .format__container {
-    max-width: 996px;
+    max-width: 100%;
+    background-color: #FF6400;
   margin: 0 auto;
-  padding-top: 92px;
+  padding-top: 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
     grid-gap: 35px;
@@ -13,28 +14,57 @@
     padding-left: 4.69vw;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
+  position: relative;
 }
 
 .fromat__title {
     margin: 0 auto;
     text-align: center;
-    padding-top: 50px;
+    font-family: rubi;
+    font-size: 54px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: #00367B;
+    color: white;
+    position: relative;
+    clip-path: polygon(0px 18px, 100% 0, 100% 105%, 0 100%);
+    margin-top: -19px;
 }
 
 .format__item {
+    background-color: white;
+    border-radius: 20px;
+    transition: ease-in 0.5s;
+    margin-bottom: 40px;
+}
 
+.format__item:hover {
+    box-shadow: 4px 4px 18px  rgba(1, 1, 1, 0.5)
 }
 
 .format__name {
-
+    font-size: 28px;
+    background-color: #00367B;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    margin: 0;
 }
 
 .format__blocks-title {
-
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 .format__block-list {
-
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+    line-height: 2;
+    padding-right: 15px;
+    padding-bottom: 20px;
 }
 
 .format__block-name {
@@ -42,15 +72,30 @@
 }
 
 .format__include-title {
-
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #00367B;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
 }
 
 .format__include-kolichestvo {
-
+    padding-left: 15px;
+    font-size: 18px;
+    text-decoration: underline;
 }
 
 .format__include-list {
-
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 2;
+    font-size: 18px;
+    padding-bottom: 20px;
 }
 
 .format__include-list-item {
@@ -58,29 +103,100 @@
 }
 
 .format__preorder {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: solid 2px #22ca34;
+    background-color: white;
+    display: block;
+    transition: ease-in 0.5s;
+}
 
+.format__preorder:hover {
+    color: #00367B;
+    cursor: pointer;
+    box-shadow: 4px 4px 18px  rgba(1, 1, 1, 0.1);
+    background-color: #22ca34;
 }
 
 .format__price-title {
-
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 23px;
+    font-weight: 100;
 }
 
 .format__price {
-
+    padding-top: 15px;
+    text-align: center;
+    font-size: 22px;
 }
 
 .format__price_old {
-
+    text-decoration: line-through;
+    color: grey;
 }
 
 .format__price_justnow {
-
+    padding-top: 8px;
+    font-size: 29px;
 }
 
 .format__button-buy {
-
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px auto 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: solid 2px #00367B;
+    background-color: #00367B;
+    display: block;
+    transition: ease-in 0.5s;
+    color: white;
 }
 
-.format__button-credi {
+.format__button-buy:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 18px  rgba(1, 1, 1, 0.1);
+    background-color: white;
+    color: #00367B;
+}
 
+.format__button-credit {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px auto 40px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: solid 2px #00367B;
+    background-color: white;
+    display: block;
+    transition: ease-in 0.5s;
+}
+
+.format__button-credit:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 18px  rgba(1, 1, 1, 0.1);
+    background-color: rgba(1, 1, 1, 0.1);
+    background-color: #00367B;
+    color: white;
+}
+
+.format__blue-paint {
+    position: absolute;
+    z-index: -1;
+}
+
+.format__white-paint {
+    position: absolute;
+    z-index: -1;
 }
