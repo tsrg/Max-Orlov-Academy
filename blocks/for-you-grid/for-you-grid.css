@@ -1,10 +1,22 @@
 .for-you-grid {
+  width: 100%;
+  background-color: #DBDBDB;
+  background-image: url('../../images/for-you-back.svg');
+  background-position-x: center;
+  background-position-y: bottom;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  margin-top: -70px;
+  overflow: hidden;
+}
+
+.for-you-grid__container {
   max-width: 996px;
   margin: 0 auto;
   padding-top: 92px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(min-content, max-content));
-    grid-gap: calc(4.12vw/3);
+  grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
     padding-right: 4.69vw;
     padding-left: 4.69vw;
   grid-auto-columns: 1fr;
@@ -12,17 +24,17 @@
 }
 
 @media all and (max-width: 1024px) {
-  .for-you-grid {
-    grid-template-columns: repeat(3, minmax(min-content, max-content));
-    grid-gap: calc(4.12vw/3);
+  .for-you-grid__container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 45px;
     padding-right: 4.69vw;
     padding-left: 4.69vw;
   }
 }
 
 @media all and (max-width: 768px) {
-  .for-you-grid {
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
+  .for-you-grid__container {
+    grid-template-columns: repeat(1, 1fr);
     padding-right: 3vw;
     padding-left: 3vw;
     grid-gap: calc(3.3vw/2);
@@ -30,7 +42,7 @@
 }
 
 @media all and (max-width: 320px) {
-  .for-you-grid {
+  .for-you-grid__container {
     grid-template-columns: minmax(min-content, max-content);
     padding-top: 64px;
     padding-right: 5vw;
@@ -39,6 +51,45 @@
   }
 }
 
-.for-you-grid-item {
+.for-you-grid__item {
   width: 100%;
+  background-color: #00367B;
+  border-radius: 20px;
 }
+
+.for-you-grid__title{
+  padding: 40px;
+  text-align: center;
+  font-size: 38px;
+  color: white;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.for-you-grid__sub-title {
+  color: white;
+  padding: 10px;
+  padding-left: 10px;
+  padding-left: 30px;
+}
+
+.for-you-grid__text {
+  padding-left: 25px;
+  padding-right: 20px;
+  background-color: white;
+  padding: 25px;
+  margin: 0;
+}
+
+.for-you-grid__sub-s-title {
+  margin: 0;
+  background-color: #FF6400;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+.for-you-grid__text_b {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
