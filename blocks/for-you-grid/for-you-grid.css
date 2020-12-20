@@ -57,6 +57,10 @@
   border-radius: 20px;
 }
 
+.for-you-grid__item:hover {
+  box-shadow: 4px 4px 18px  rgba(1, 1, 1, 0.5)
+}
+
 .for-you-grid__title{
   padding: 40px;
   text-align: center;
@@ -85,7 +89,7 @@
   margin: 0;
   background-color: #FF6400;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .for-you-grid__text_b {
