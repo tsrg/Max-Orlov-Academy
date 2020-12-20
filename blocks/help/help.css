@@ -1,0 +1,38 @@
+.help {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.help__title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.help__text {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.help__button {
+    display: block;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: ease-in 0.5s;
+    border-radius: 10px;
+    border: solid 2px #FF6400;
+    background-color: white;
+    font-size: 25px;
+}
+
+.help__button:hover {
+    background-color: #FF6400;
+    box-shadow: 4px 4px 18px  rgba(1, 1, 1, 0.5);
+    color: white;
+    cursor: pointer;
+}
