@@ -16,17 +16,24 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    border: solid 2px #00367B;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .program-block__number {
     display: flex;
-    width: 20%;
-    margin: 0;
+    width: 50px;
+    margin: 0 auto;
+    writing-mode: sideways-lr;
+    padding-top: 50px;
+    padding-left: 40px;
+    line-height: 12px;
 }
 
 .program-block__content {
     display: flex;
-    width: 80%;
+    width: 95%;
     flex-direction: column;
 }
 

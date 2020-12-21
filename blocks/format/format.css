@@ -67,7 +67,8 @@
 }
 
 .format__block-name {
-
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 .format__include-title {
@@ -82,7 +83,7 @@
 }
 
 .format__include-kolichestvo {
-    padding-left: 15px;
+    padding-left: 25px;
     font-size: 18px;
     text-decoration: underline;
 }
@@ -98,7 +99,7 @@
 }
 
 .format__include-list-item {
-
+    padding-left: 21px;
 }
 
 .format__preorder {
