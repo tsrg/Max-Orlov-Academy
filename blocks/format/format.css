@@ -6,6 +6,7 @@
     padding-top: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(min-content, max-content);
     grid-gap: 35px;
     padding-right: 4.69vw;
     padding-left: 4.69vw;
@@ -110,11 +111,12 @@
     padding-bottom: 10px;
     font-size: 21px;
     border-radius: 10px;
-    border: solid 2px #FF6400;
-    background-color: #FF6400;
+    border: solid 2px #00367B;
+    background-color: #00367B;
     display: block;
     transition: ease-in 0.5s;
     color: white;
+    max-width: 90%;
 }
 
 .format__preorder:hover {
@@ -150,6 +152,9 @@
     color: black;
     font-weight: 300;
     text-decoration: none;
+    text-align: center;
+    margin-top: -18px;
+    color: red;
 }
 
 .format__price_justnow {
@@ -176,13 +181,15 @@ padding-top: 15px;
     margin: 20px auto 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 10px;
-    border: solid 2px #00367B;
-    background-color: #00367B;
+    border: solid 2px #FF6400;
+    background-color: #FF6400;
     display: block;
     transition: ease-in 0.5s;
     color: white;
+    min-width: 70%;
+    min-height: 59px;
 }
 
 .format__button-buy:hover {
@@ -200,7 +207,7 @@ padding-top: 15px;
     padding-bottom: 10px;
     font-size: 17px;
     border-radius: 10px;
-    border: solid 2px #00367B;
+    border: solid 2px #FF6400;
     background-color: white;
     display: block;
     transition: ease-in 0.5s;
@@ -210,7 +217,7 @@ padding-top: 15px;
     cursor: pointer;
     box-shadow: 4px 4px 18px  rgba(1, 1, 1, 0.1);
     background-color: rgba(1, 1, 1, 0.1);
-    background-color: #00367B;
+    background-color: #FF6400;
     color: white;
 }
 
