@@ -1,8 +1,7 @@
 .about {
-    max-width: 996px;
+    max-width: 1300px;
     margin: 0 auto;
-    background-color: #00367B;
-    color: white;
+    color: black;
     padding: 25px;
     border-radius: 25px;
 }
@@ -13,7 +12,10 @@
 }
 
 .about__photo {
-    display: none;
+    height: 495px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    align-self: center;
 }
 
 .about__text {
@@ -45,6 +47,16 @@
 }
 
 .about-list__text {
+
+}
+
+.about__container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about__text-container {
 
 }
 
