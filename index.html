@@ -9,7 +9,7 @@
 </head>
 <body class="page">
   <header class="header">
-    <div class="header__content">
+    <div class="header__content" id="top">
     <p class="header__start-date">Старт: 12 января</p><p class="header__duration">Продолжительность: 3 недели</p>
     </div>
   </header>
@@ -26,7 +26,7 @@
         <li class="booking__skill"><img class="booking__skill-icon" src="./images/lightning.svg" alt="иконка молния"><span class="booking__skill-text">Энергия <br>и уверенность</span></li>
         <li class="booking__skill"><img class="booking__skill-icon" src="./images/cash.svg" alt="иконка деньги"><span class="booking__skill-text">Монетизация</span></li>
       </ul>
-      <button class="booking__button">Забронировать</button>
+      <a class="booking__button" href="https://orlovacademy.instaspeaker.ru/promo_mk">Забронировать</a>
       <p class="booking__text">Оставьте предоплату в 1000 рублей и забронируйте себе место на курсе по спец. цене.</p>
       <img class="booking__paint" src="./images/paint.png" alt="краска">
       <img class="booking__foto-max" src="./images/max.png" alt="Фотография Макса">
@@ -103,12 +103,7 @@
           <li class="format__include-list-item">Участие в конкурсе на приз от эксперта</li>
           <li class="format__include-list-item">Доступ к курсу на 3 мес</li>
         </ul>
-        <button class="format__preorder">Внести предоплату 1&nbsp;000 руб.</button>
-        <p class="format__price-title">Стоимость</p>
-        <p class="format__price format__price_old">12&nbsp;990р.</p>
-        <p class="format__price format__price_old">9&nbsp;990р.</p><span class="format__price-text_old">Цена после льготного периода</span>
-        <p class="format__price format__price_justnow">7&nbsp;990р. <span class="format__price-text_justnow">Цена для быстрого решения, действительна только 48 часов после мастер класса</span></p>
-        <button class="format__button-buy">Купить</button>
+        <button class="format__preorder" onclick="">Купить</button>
         <button class="format__button-credit">Оформить рассрочку</button>
       </article>
 
@@ -360,7 +355,7 @@
   <footer class="footer">
     <p class="footer__rekviziti comp">ИП Долгополов В.С.<br>ИНН 720412037202<br>ОРГНИП  315503200025360</p>
     <div class="footer__links">
-      <a class="footer__go-to-top" href="">Наверх</a>
+      <a class="footer__go-to-top" href="#top">Наверх</a>
       <a class="footer__confid" href="./documents/confidencial.pdf">Политика конфиденциальности</a>
       <a class="footer__oferta" href="./documents/offer.pdf">Договор-оферты</a>
       <p class="footer__copyright">© 2020. Все права защищены.</p>
@@ -368,5 +363,6 @@
     <p class="footer__rekviziti mob">ИП Долгополов В.С.<br>ИНН 720412037202<br>ОРГНИП  315503200025360</p>
     <p class="footer__rekviziti">Р/сч.: 40802810500000010923<br>в Райффайзенбанк г. Москва<br>Корр./сч.: 30101810200000000700<br>БИК:  044525700</p>
   </footer>
+  
 </body>
 </html>

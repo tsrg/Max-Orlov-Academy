@@ -28,11 +28,17 @@
 }
 
 .footer__confid {
-
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 10px;
 }
 
 .footer__oferta {
-
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 10px;
 }
 
 .footer__copyright {

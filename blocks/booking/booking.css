@@ -101,6 +101,8 @@
   margin-top: 40px;
   cursor: pointer;
   transition: ease-in 0.5s;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .booking__button:hover {
