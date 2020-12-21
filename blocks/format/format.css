@@ -110,12 +110,13 @@
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 17px;
+    font-size: 21px;
     border-radius: 10px;
-    border: solid 2px #22ca34;
-    background-color: white;
+    border: solid 2px #FF6400;
+    background-color: #FF6400;
     display: block;
     transition: ease-in 0.5s;
+    color: white;
 }
 
 .format__preorder:hover {
@@ -145,12 +146,22 @@
 }
 
 .format__price-text_old {
-    
+    display: block;
+    font-size: 16px;
 }
 
 .format__price_justnow {
     padding-top: 8px;
     font-size: 29px;
+}
+
+.format__price-text_justnow {
+display: block;
+font-size: 15px;
+padding-left: 10px;
+padding-right: 10px;
+max-width: 80%;
+margin: 0 auto;
 }
 
 .format__button-buy {
