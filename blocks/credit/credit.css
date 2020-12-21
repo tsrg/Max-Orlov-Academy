@@ -41,3 +41,19 @@ li {
     padding-top: 15px;
 }
 
+@media all and (max-width: 570px) {
+    .credit {
+        display: block;
+    }
+    .credit__terms {
+        width: 75%;
+    }
+    .credit__howto {
+        width: 75%;
+    }
+
+    .help {
+        width: 75%;
+    }
+}
+

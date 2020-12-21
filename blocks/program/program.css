@@ -45,3 +45,11 @@
 .program-block__theme {
     
 }
+
+@media all and (max-width: 570px) {
+
+    .porgram-block {
+        flex-direction: column;
+    }
+
+}

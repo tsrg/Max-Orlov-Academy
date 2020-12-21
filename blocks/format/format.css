@@ -206,3 +206,10 @@
     right: -188px;
     bottom: 50px;
 }
+
+@media all and (max-width: 570px) {
+.format__container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}

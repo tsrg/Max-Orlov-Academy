@@ -1,0 +1,62 @@
+.footer {
+    background-color: #001633;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer__rekviziti {
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+.footer__links {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer__go-to-top {
+    color: white;
+    text-decoration: underline;
+    line-height: 4;
+}
+
+.footer__confid {
+
+}
+
+.footer__oferta {
+
+}
+
+.footer__copyright {
+
+}
+
+.mob {
+    display: none;
+}
+
+.comp {
+    display: block;
+}
+
+@media all and (max-width: 570px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .mob {
+        display: block;
+    }
+
+    .comp {
+        display: none;
+    }
+}

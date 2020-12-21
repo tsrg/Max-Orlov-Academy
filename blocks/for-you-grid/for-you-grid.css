@@ -98,3 +98,8 @@
   color: white;
 }
 
+@media all and (max-width: 570px) {
+  .for-you-grid__item:nth-of-type(1) {
+    height: 300px;
+  }
+}

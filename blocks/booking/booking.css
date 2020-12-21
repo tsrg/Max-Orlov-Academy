@@ -185,7 +185,7 @@
   }
 
   .booking__paint {
-    top: 150px
+    top: 300px
     }
 
     .booking__foto-max {
@@ -244,6 +244,7 @@
 
 .booking__paint {
   right: -199px;
+  top: 360px;
   }
 
   .booking__foto-max {
