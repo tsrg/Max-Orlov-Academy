@@ -1,3 +1,75 @@
 .cases {
-    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.cases__container {
+    display: flex;
+}
+
+.cases__title {
+    text-align: center;
+    font-size: 34px;
+    padding-top: 50px;
+}
+
+.case {
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    margin: 40px;
+    box-shadow: 2px 2px 5px #00000045;
+    border-radius: 20px;
+}
+
+.case__photo {
+    border-radius: 50%
+    ;
+}
+
+.case__name {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.case__profession {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    padding: ;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.case__link {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.case__a {
+    text-align: left;
+    padding: 20px;
+}
+
+.case__b {
+    text-align: left;
+    padding: 20px;
+}
+
+@media all and (max-width: 900px) {
+    .cases__container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .case {
+        width: 85%;
+        margin: 12px;  
+    }
 }
