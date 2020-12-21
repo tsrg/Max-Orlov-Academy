@@ -1,0 +1,26 @@
+.popup-viwer {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1vw;
+    height: 1vh;
+}
+
+.popup-standart {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1vw;
+    height: 1vh;
+}
+
+.popup-vip {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1vw;
+    height: 1vh;
+}
