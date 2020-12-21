@@ -149,12 +149,12 @@
     font-size: 16px;
     color: black;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .format__price_justnow {
     padding-top: 8px;
     font-size: 35px;
-    color: red;
     font-weight: bold;
 }
 
@@ -167,6 +167,7 @@ max-width: 80%;
 margin: 0 auto;
 color: black;
 font-weight: 300;
+padding-top: 15px;
 }
 
 .format__button-buy {
