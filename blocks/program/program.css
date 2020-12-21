@@ -1,0 +1,47 @@
+.program {
+    max-width: 966px;
+    margin: 0 auto;
+}
+
+.program__title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.program-list {
+    list-style: none;
+}
+
+.porgram-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.program-block__number {
+    display: flex;
+    width: 20%;
+    margin: 0;
+}
+
+.program-block__content {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.program-block__title {
+    
+}
+
+.program-block__index {
+    
+}
+
+.program-block__theme-list {
+    
+}
+
+.program-block__theme {
+    
+}

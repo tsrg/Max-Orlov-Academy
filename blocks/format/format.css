@@ -1,20 +1,22 @@
 .format {
-   
+
 }
 
 .format__container {
     max-width: 100%;
     background-color: #FF6400;
-  margin: 0 auto;
-  padding-top: 60px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 35px;
     padding-right: 4.69vw;
     padding-left: 4.69vw;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  position: relative;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    position: relative;
+    z-index: -2;
+    overflow: hidden;
 }
 
 .fromat__title {
@@ -194,9 +196,13 @@
 .format__blue-paint {
     position: absolute;
     z-index: -1;
+    top: 140px;
+    left: -155px;
 }
 
 .format__white-paint {
     position: absolute;
     z-index: -1;
+    right: -188px;
+    bottom: 50px;
 }
