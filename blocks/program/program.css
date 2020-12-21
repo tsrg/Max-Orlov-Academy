@@ -10,6 +10,8 @@
 
 .program-list {
     list-style: none;
+    margin: 0;
+    padding: 10px;
 }
 
 .porgram-block {
@@ -56,7 +58,13 @@
 @media all and (max-width: 570px) {
 
     .porgram-block {
-        flex-direction: column;
+
     }
 
+    
+.program-block__number {
+    width: 33px;
+    padding-left: 10px;
+    line-height: 10px;
+}
 }
