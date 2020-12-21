@@ -67,8 +67,9 @@
 
     
 .program-block__number {
-    width: 33px;
-    padding-left: 10px;
-    line-height: 10px;
+    left: -96px;
+    top: 70px;
+    font-size: 31px;
+    background: white;
 }
 }
