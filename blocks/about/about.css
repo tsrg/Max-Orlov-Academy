@@ -40,14 +40,17 @@
     list-style: none;
     display: block;
     width: 20%;
+    text-align: center;
 }
 
 .about-list__pic {
-    visibility: hidden;
+    
 }
 
 .about-list__text {
-
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
 }
 
 .about__container {
