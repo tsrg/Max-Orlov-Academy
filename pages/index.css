@@ -13,3 +13,13 @@
 @import url(../blocks/cases/cases.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/popup/popup.css);
+
+.color_black {
+  color: black;
+}
+
+.color_red {
+  text-decoration: none;
+  color: red;
+  text-align: center;
+}
