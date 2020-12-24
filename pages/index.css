@@ -23,3 +23,12 @@
   color: red;
   text-align: center;
 }
+
+.format__price:nth-of-type(2) {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.format__price-text_justnow {
+  margin-top: -30px;
+}
