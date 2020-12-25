@@ -6,6 +6,7 @@
   <meta name="author" content="Тряхалов Сергей">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Академия Макса Орлова</title>
+  <link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
 </head>
 <body class="page">
   <header class="header">
@@ -18,7 +19,7 @@
       <div class="booking__content">
       <p class="booking__format">oнлайн | практика | обратная связь</p>
       <h2 class="booking__academy-name">Академия Макса Орлова</h2>
-      <h1 class="booking__course-name">Академия эфиров<br>Макса Орлова</h1>
+      <h1 class="booking__course-name">Академия эфиров<br><span class="booking__course-mname">Макса Орлова</span></h1>
       <p class="booking__about">Развитие навыка говорить публично</p>
       <p class="booking__ready">Ты уже готов!</p>
       <ul class="booking__skills">
@@ -38,7 +39,7 @@
       <article class="for-you-grid__item">
         <h2 class="for-you-grid__title">Кому подойдет этот курс?</h2>
       </article>
-      <article class="for-you-grid__item">
+      <article class="for-you-grid__item wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s" data-wow-offset="120">
         <h3 class="for-you-grid__sub-title">ЭКСПЕРТАМ:</h3>
         <p class="for-you-grid__text">Вы эксперт, который хочет запустить свой курс, вам необходимо выходить в прямой эфир, снимать сторис и вести семинары и вебинары так, что бы людям было интересно. Подписчики добавлялись. Курс раскупался как пирожкки.</p>
         <p class="for-you-grid__sub-s-title">Ваш результат через 3 недели:</p>
@@ -77,7 +78,7 @@
       <article class="format__item">
         <h3 class="format__name">Наблюдатель</h3>
         <p class="format__blocks-title">13 обучающих уроков без обратной связи:</p>
-        <ul class="format__block-list">
+        <ul class="format__block-list format__block-list_nth_first">
           <li class="format__block-name">Вводный урок</li>
           <li class="format__block-name">Раскрытие своего потенциала</li>
           <li class="format__block-name">Посмотреть страху в лицо</li>
@@ -94,8 +95,8 @@
         </ul>
         <p class="format__include-title">Включены</p>
         <p class="format__include-kolichestvo">13 занятий.</p>
-        <p class="format__include-kolichestvo">Чек листы, лайфхаки.</p>
-        <ul class="format__include-list">
+        <p class="format__include-kolichestvo format__include-kolichestvo_nth_first">Чек листы, лайфхаки.</p>
+        <ul class="format__include-list include-list_size_small">
           <li class="format__include-list-item">Прямые эфиры с экспертами</li>
           <li class="format__include-list-item">Домашние задания.</li>
           <li class="format__include-list-item">Общий чат без обратной связи.</li>
@@ -103,7 +104,7 @@
           <li class="format__include-list-item">Участие в конкурсе на приз от эксперта</li>
           <li class="format__include-list-item">Доступ к курсу на 3 мес</li>
         </ul>
-      <button class="format__preorder" onclick="(document.getElementById('popup-1').style.display='flex')">Внести предоплату 1&nbsp;000 руб.</button>
+      <button class="format__preorder" onclick="(document.getElementById('popup-1').style.display='flex')">Внести предоплату 1&nbsp;000&nbsp;руб.</button>
         <p class="format__price-title">Стоимость</p>
         <p class="format__price format__price_old">12&nbsp;990р.</p>
         <p class="format__price format__price_justnow">9&nbsp;990&nbsp;р.</p><span class="format__price-text_old color_black">Цена после льготного периода</span>
@@ -134,7 +135,7 @@
         <p class="format__include-title">Включены</p>
         <p class="format__include-kolichestvo">14 занятий</p>
         <p class="format__include-kolichestvo">Чек листы, лайфхаки, бонусные практики</p>
-        <ul class="format__include-list">
+        <ul class="format__include-list include-list_size_small">
           <li class="format__include-list-item">Прямые эфиры с экспертами</li>
           <li class="format__include-list-item">Обратная связь в чате из 55 человек от кураторов.</li>
           <li class="format__include-list-item">Участие в конкурсе на приз от эксперта</li>
@@ -142,7 +143,7 @@
           <li class="format__include-list-item">Вебинар еженедельный с экспертом ответы на вопросы.</li>
           <li class="format__include-list-item">Доступ к курсу на 5 мес</li>
         </ul>
-        <button class="format__preorder" onclick="(document.getElementById('popup-2').style.display='flex')">Внести предоплату 1&nbsp;000 руб.</button>
+        <button class="format__preorder" onclick="(document.getElementById('popup-2').style.display='flex')">Внести предоплату 1&nbsp;000&nbsp;руб.</button>
         <p class="format__price-title">Стоимость</p>
         <p class="format__price format__price_old" >19&nbsp;990&nbsp;р.</p>
         <p class="format__price format__price_justnow">17&nbsp;990&nbsp;р.</p><span class="format__price-text_old color_black">Цена после льготного периода</span>
@@ -387,5 +388,9 @@
     <p class="footer__rekviziti mob">ИП Долгополов В.С.<br>ИНН 720412037202<br>ОРГНИП  315503200025360</p>
     <p class="footer__rekviziti">Р/сч.: 40802810500000010923<br>в Райффайзенбанк г. Москва<br>Корр./сч.: 30101810200000000700<br>БИК:  044525700</p>
   </footer>
+  <script src="wow-animation/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
   </body>
 </html>
