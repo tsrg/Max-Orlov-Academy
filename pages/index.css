@@ -350,8 +350,20 @@ template {
 	background-color: #00367b;
 	padding: 0;
 	margin: 0;
-	clip-path: polygon(0 0,100% 0,100% 93%,0 100%);
+    /*clip-path: polygon(0 0,100% 0,100% 93%,0 100%);*/
 	overflow: hidden;
+}
+
+.booking::after {
+    display: block; // это блочный элемент
+    content: ''; // без него псевдоэлемент не отрисуется
+    width: 100%; // на всю ширину блока-родителя
+    height: 30px; // высота скошенного края
+    background: black; // цвет скошенного края
+    position: absolute; // позиционируем относительно block
+    top: 0; // пристроим к верхней части блока
+    left: 0; // пристроим к левой части блока
+    transform: translateY(-100%); // сдвигаем вверх на 30 пикселей
 }
 
 .booking__content {
