@@ -1,8 +1,4 @@
 /*-----------Normalize---------*/
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
 
 html {
     line-height: 1.15; /* 1 */
@@ -363,12 +359,44 @@ template {
 }
 
 .booking__format {
+	list-style: none;
+	display: flex;
+	gap: 15px;
 	margin: 0;
 	padding-top: 20px;
 	color: #fff;
 	font-size: 22px;
 	padding-left: 15px;
 	line-height: 1.2;
+}
+
+.booking__format-item {
+	animation-name: fadeIn;
+	animation-duration: 0.6s;
+}
+
+.booking__format-item:nth-child(1) {
+	animation-delay: 0.1s;
+}
+
+.booking__format-item:nth-child(2) {
+	animation-delay: 0.3s;
+}
+
+.booking__format-item:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+.booking__format-item:nth-child(4) {
+	animation-delay: 0.7s;
+}
+
+.booking__format-item:nth-child(5) {
+	animation-delay: 0.9s;
+}
+
+.booking__format-divider {
+	padding-left: 7px;
 }
 
 .booking__academy-name {
@@ -380,6 +408,9 @@ template {
 	color: #bcbcbc;
 	margin: 0;
 	letter-spacing: 10.3px;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 1s;
 }
 
 .booking__course-name {
@@ -391,12 +422,18 @@ template {
 	text-transform: uppercase;
 	color: #ff6400;
 	font-stretch: condensed;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 1s;
 }
 
 .booking__course-mname{
   font-size: 82px;
   color: #ff6400;
   letter-spacing: 5px;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 
 .booking__about {
@@ -408,6 +445,9 @@ template {
 	color: white;
 	font-stretch: expanded;
 	letter-spacing: 5.8px;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 1s;
 }
 
 .booking__ready {
@@ -420,10 +460,18 @@ template {
 	color: white;
 	font-stretch: expanded;
 	letter-spacing: 9px;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 1s;
 }
 
 .booking__skills {
 	list-style: none;
+	display: block;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 1.2s;
+	visibility: hidden;
 }
 
 .booking__skill {
@@ -470,6 +518,9 @@ template {
 	max-width: 360px;
 	padding-left: 15px;
 	padding-bottom: 40px;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
 }
 
 .booking__paint {
@@ -477,6 +528,9 @@ template {
 	right: -240px;
 	top: 20px;
 	z-index: -3;
+	animation-name: fadeIn;
+	animation-duration: 0.7s;
+	animation-delay: 1.2s;
 }
 
 .booking__foto-max {
@@ -484,6 +538,9 @@ template {
 	right: 30px;
 	bottom: 0;
 	z-index: -2;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 0.6s;
 }
 
 .booking__max-orlov-img-txt {
@@ -491,6 +548,9 @@ template {
 	right: 15px;
 	bottom: 60px;
 	z-index: -1;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-delay: 1s;
 }
 
 @media all and (max-width:980px) {
@@ -672,6 +732,32 @@ template {
 	background-color: #00367b;
 	border-radius: 20px;
 	transition: ease-in .5s;
+	animation-name: fadeInRight;
+	animation-duration: 0.6s;
+}
+
+.for-you-grid__item:nth-child(1) {
+	animation-delay: 0s;
+}
+
+.for-you-grid__item:nth-child(2) {
+	animation-delay: 0.3s;
+}
+
+.for-you-grid__item:nth-child(3) {
+	animation-delay: 0.6s;
+}
+
+.for-you-grid__item:nth-child(4) {
+	animation-delay: 0.2s;
+}
+
+.for-you-grid__item:nth-child(5) {
+	animation-delay: 0.5s;
+}
+
+.for-you-grid__item:nth-child(6) {
+	animation-delay: 0.8s;
 }
 
 .for-you-grid__item:nth-child(3) > p:nth-child(2) {
@@ -754,6 +840,9 @@ template {
 	position: relative;
 	z-index: 0;
 	overflow: hidden;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-delay: 0;
 }
 
 .fromat__title {
@@ -775,10 +864,24 @@ template {
 	border-radius: 20px;
 	transition: ease-in .5s;
 	margin-bottom: 40px;
+	animation-name: fadeInRight;
+	animation-duration: 0.5s;
 }
 
 .format__item:hover {
 	box-shadow: 4px 4px 18px rgba(1,1,1,.5);
+}
+
+.format__item:nth-child(1) {
+	animation-delay: 0.1s;
+}
+
+.format__item:nth-child(2) {
+	animation-delay: 0.5s;
+}
+
+.format__item:nth-child(3) {
+	animation-delay: 0.8s;
 }
 
 .format__name {
@@ -1116,6 +1219,9 @@ li {
 	list-style: none;
 	margin: 0;
 	padding: 10px;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-delay: 0.2s;
 }
 
 .porgram-block {
@@ -1126,6 +1232,9 @@ li {
 	background-color: white;
 	max-width: 950px;
 	margin: 0 auto 30px auto;
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	animation-delay: 0.1s;
 }
 
 .program-block__number {
@@ -1224,7 +1333,7 @@ li {
 	border-left: none;
 	border-right: none;
 	animation-name: fadeIn;
-	animation-delay: 1.5s;
+	animation-delay: 1s;
 }
 
 .program-block__result-text {
@@ -1241,7 +1350,7 @@ li {
 	padding-bottom: 20px;
 	border-top: none;
 	animation-name: fadeIn;
-	animation-delay: 1.5s;
+	animation-delay: 1s;
 }
 
 .program-block__theme_text_bold {
