@@ -326,22 +326,6 @@ template {
 	margin: 0;
 }
 
-@media all and (max-width:415px) {
-	.header__content {
-		display: block;
-	}
-
-	.header__start-date {
-		padding-bottom: 5px;
-		padding-left: 15px;
-	}
-
-	.header__duration {
-		padding-left: 15px;
-		padding-top: 0;
-	}
-}
-
 .booking {
 	background-color: #00367b;
 	padding: 0;
@@ -553,126 +537,6 @@ template {
 	animation-delay: 1s;
 }
 
-@media all and (max-width:980px) {
-	.booking__foto-max {
-		max-height: 463px;
-	}
-
-	.booking__max-orlov-img-txt {
-		max-height: 400px;
-	}
-
-	.booking__paint {
-		max-height: 438px;
-		top: 210px;
-	}
-}
-
-@media all and (max-width:570px) {
-	.booking__format {
-		font-size: 19px;
-	}
-
-	.booking__academy-name {
-		font-size: 19px;
-		letter-spacing: 5px;
-	}
-
-	.booking__about {
-		font-size: 21px;
-	}
-
-	.booking__course-name {
-		font-size: 67px;
-	}
-
-	.booking__skills {
-		padding-left: 27px;
-	}
-
-	.booking__skill-icon {
-		width: 18px;
-	}
-
-	.booking__skill-text {
-		font-size: 20px;
-		padding-left: 15px;
-	}
-
-	.booking__paint {
-		top: 300px;
-	}
-
-	.booking__foto-max {
-		right: -125px;
-		bottom: -12px;
-	}
-
-	.booking__max-orlov-img-txt {
-		right: -23px;
-	}
-
-	.booking__text {
-		background-color: rgba(0,54,123,.5);
-	}
-}
-
-@media all and (max-width:380px) {
-	.booking__format {
-		padding-left: 8px;
-	}
-
-	.booking__academy-name {
-		font-size: 13px;
-		padding-left: 8px;
-		letter-spacing: 5.3px;
-	}
-
-	.booking__course-name {
-		font-size: 53px;
-		padding-left: 5px;
-	}
-
-	.booking__about {
-		font-size: 17px;
-		padding-left: 8px;
-	}
-
-	.booking__skills {
-		padding-left: 10px;
-	}
-
-	.booking__skill-icon {
-		width: 14px;
-	}
-
-	.booking__skill-text {
-		font-size: 18px;
-		padding-left: 10px;
-	}
-
-	.booking__text {
-		font-size: 16px;
-		padding-left: 8px;
-		background-color: rgba(0,54,123,.5);
-	}
-
-	.booking__paint {
-		right: -199px;
-		top: 360px;
-	}
-
-	.booking__foto-max {
-		right: -163px;
-		bottom: -22px;
-	}
-
-	.booking__max-orlov-img-txt {
-		right: -41px;
-		bottom: 60px;
-	}
-}
-
 .for-you-grid {
 	width: 100%;
 	background-color: #dbdbdb;
@@ -697,34 +561,6 @@ template {
 	grid-template-rows: minmax(min-content,max-content);
 	grid-auto-columns: 1fr;
 	grid-auto-rows: 1fr;
-}
-
-@media all and (max-width:1024px) {
-	.for-you-grid__container {
-		grid-template-columns: repeat(2,1fr);
-		grid-gap: 45px;
-		padding-right: 4.69vw;
-		padding-left: 4.69vw;
-	}
-}
-
-@media all and (max-width:768px) {
-	.for-you-grid__container {
-		grid-template-columns: repeat(1,1fr);
-		padding-right: 3vw;
-		padding-left: 3vw;
-		grid-gap: calc(3.3vw/2);
-	}
-}
-
-@media all and (max-width:320px) {
-	.for-you-grid__container {
-		grid-template-columns: minmax(min-content,max-content);
-		padding-top: 64px;
-		padding-right: 5vw;
-		padding-left: 5vw;
-		grid-gap: 3.7vw;
-	}
 }
 
 .for-you-grid__item {
@@ -816,12 +652,6 @@ template {
 	background-color: rgba(255,255,255,0);
 	color: #fff;
 	padding-top: 0;
-}
-
-@media all and (max-width:570px) {
-	.for-you-grid__item:nth-of-type(1) {
-		height: 300px;
-	}
 }
 
 .format__container {
@@ -1085,12 +915,6 @@ template {
 	bottom: 50px;
 }
 
-@media all and (max-width:570px) {
-	.format__container {
-		grid-template-columns: repeat(1,1fr);
-	}
-}
-
 .credit {
 	display: flex;
 	max-width: 1100px;
@@ -1132,24 +956,6 @@ template {
 li {
 	line-height: 1.3;
 	padding-top: 15px;
-}
-
-@media all and (max-width:570px) {
-	.credit {
-		display: block;
-	}
-
-	.credit__terms {
-		width: 75%;
-	}
-
-	.credit__howto {
-		width: 75%;
-	}
-
-	.help {
-		width: 75%;
-	}
 }
 
 .help {
@@ -1357,34 +1163,6 @@ li {
 	font-weight: 700;
 }
 
-@media all and (max-width:570px) {
-	.program-block__title {
-		width: 94.7%;
-	}
-
-	.program-block__result-title {
-		width: 94.9%;
-	}
-
-	.program-block__theme-list {
-		width: 90%;
-		margin: 0;
-		padding: 0;
-	}
-
-	.program-block__result-text {
-		width: 90%;
-	}
-
-	.program-block__number {
-		left: -75px;
-		top: 53px;
-		font-size: 31px;
-		background: #fff;
-		width: 152px;
-	}
-}
-
 .about {
 	max-width: 1300px;
 	margin: 0 auto;
@@ -1399,7 +1177,7 @@ li {
 }
 
 .about__photo {
-	height: 495px;
+	height: 40vw;
 	border-radius: 15px;
 	margin-bottom: 30px;
 	align-self: center;
@@ -1419,6 +1197,7 @@ li {
 	line-height: 1.4;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .about-list__item {
@@ -1440,25 +1219,6 @@ li {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-}
-
-@media all and (max-width:570px) {
-	.about-list {
-		flex-direction: column;
-	}
-
-	.about-list__item {
-		width: 80%;
-		margin: 0 auto;
-	}
-
-	.about__container {
-		flex-direction: column;
-	}
-
-	.about__text {
-		padding: 0;
-	}
 }
 
 .faq {
@@ -1517,20 +1277,22 @@ summary:focus {
 }
 
 .cases {
-	max-width: 1200px;
 	margin: 0 auto;
 	font-size: 18px;
 	line-height: 1.3;
+	background-color: #ff6400;
 }
 
 .cases__container {
 	display: flex;
+	max-width: 1200px;
 }
 
 .cases__title {
 	text-align: center;
 	font-size: 34px;
 	padding-top: 50px;
+	color: white;
 }
 
 .case {
@@ -1540,10 +1302,12 @@ summary:focus {
 	margin: 40px;
 	box-shadow: 2px 2px 5px #00000045;
 	border-radius: 20px;
+	background-color: white;
 }
 
 .case__photo {
 	border-radius: 50%;
+	max-height: 280px;
 }
 
 .case__name {
@@ -1577,18 +1341,6 @@ summary:focus {
 .case__b {
 	text-align: left;
 	padding: 20px;
-}
-
-@media all and (max-width:900px) {
-	.cases__container {
-		flex-direction: column;
-		width: 100%;
-	}
-
-	.case {
-		width: 85%;
-		margin: 12px;
-	}
 }
 
 .footer {
@@ -1640,20 +1392,6 @@ summary:focus {
 
 .comp {
 	display: block;
-}
-
-@media all and (max-width:570px) {
-	.footer {
-		flex-direction: column;
-	}
-
-	.mob {
-		display: block;
-	}
-
-	.comp {
-		display: none;
-	}
 }
 
 .popup-viwer {
@@ -1718,6 +1456,450 @@ summary:focus {
 	text-decoration: line-through;
 }
 
+.color_black {
+	color: #000 !important;
+}
+
+.color_red {
+	text-decoration: none;
+	color: red !important;
+	text-align: center;
+}
+
+.format__price-text_justnow {
+	margin-top: -30px;
+}
+
+@media all and (max-width:1070px) {
+	.for-you-grid__container {
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 45px;
+		padding-right: 4.69vw;
+		padding-left: 4.69vw;
+	}
+
+	.format__item:nth-child(1) > p:nth-child(2) {
+		padding-bottom: 1em;
+	}
+
+	.format__item:nth-child(2) > p:nth-child(2) {
+		padding-bottom: 1em;
+	}
+}
+
+@media all and (max-width:980px) {
+	.booking__foto-max {
+		max-height: 463px;
+	}
+
+	.booking__max-orlov-img-txt {
+		max-height: 400px;
+	}
+
+	.booking__paint {
+		max-height: 438px;
+		top: 210px;
+	}
+
+	.format__include-kolichestvo_nth_first {
+		padding-bottom: 2.4em;
+	}
+
+	.format__item:nth-child(2) > p:nth-child(6) {
+		padding-bottom: 1.2em;
+	}
+
+	.format__item:nth-child(2) > ul:nth-child(7) {
+		padding-bottom: 6.2em;
+	}
+
+	.format__item:nth-child(1) > ul:nth-child(7) {
+		padding-bottom: 7.5em;
+	}
+
+	.porgram-block {
+		width: 90%;
+	}
+
+	.program-block__title {
+		width: calc(100% + 9px);
+	}
+}
+
+@media all and (max-width:900px) {
+	.cases__container {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.case {
+		width: 85%;
+		margin: 12px auto;
+	}
+
+	.format__container {
+		grid-gap: 15px;
+		padding-right: 2vw;
+		padding-left: 2vw;
+	}
+
+	.about__photo {
+		height: 30vw;
+	}
+}
+
+@media all and (max-width:768px) {
+	.for-you-grid__container {
+		grid-template-columns: repeat(1,1fr);
+		padding-right: 3vw;
+		padding-left: 3vw;
+		grid-gap: calc(3.3vw/2);
+	}
+
+	.for-you-grid__item:nth-child(1) {
+		animation-delay: 0.1s;
+	}
+
+	.for-you-grid__item:nth-child(2) {
+		animation-delay: 0.1s;
+	}
+
+	.for-you-grid__item:nth-child(3) {
+		animation-delay: 0.1s;
+	}
+
+	.for-you-grid__item:nth-child(4) {
+		animation-delay: 0.1s;
+	}
+
+	.for-you-grid__item:nth-child(5) {
+		animation-delay: 0.1s;
+	}
+
+	.for-you-grid__item:nth-child(6) {
+		animation-delay: 0.1s;
+	}
+
+	.format__container {
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	.format__item:nth-child(2) {
+		animation-delay: 0.1s;
+	}
+
+	.format__item:nth-child(3) {
+		animation-delay: 0.1s;
+	}
+
+	.format__item:nth-child(1) > p:nth-child(2) {
+		padding-bottom: 0;
+	}
+
+	.format__item:nth-child(2) > p:nth-child(2) {
+		padding-bottom: 0;
+	}
+
+	.format__include-kolichestvo_nth_first {
+		padding-bottom: 2em;
+	}
+
+	.format__item:nth-child(2) > p:nth-child(6) {
+		padding-bottom: 2em;
+	}
+
+	.format__item:nth-child(2) > ul:nth-child(7) {
+		padding-bottom: 2em;
+	}
+
+	.format__item:nth-child(1) > ul:nth-child(7) {
+		padding-bottom: 2em;
+	}
+
+	.format__include-list {
+		padding-bottom: 15px;
+	}
+
+	.format__button-credit {
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		font-size: 18px;
+	}
+
+	.program-block__result-title {
+		width: 100.8%;
+	}
+
+	.program-block__title {
+		width: calc(100% + 4px);
+	}
+
+	.about__container {
+		flex-direction: column;
+	}
+
+	.about__photo {
+		height: 20vw;
+	}
+}
+
+@media all and (max-width:570px) {
+	.booking__format {
+		font-size: 19px;
+	}
+
+	.booking__academy-name {
+		font-size: 19px;
+		letter-spacing: 5px;
+	}
+
+	.booking__about {
+		font-size: 21px;
+	}
+
+	.booking__course-name {
+		font-size: 67px;
+	}
+
+	.booking__skills {
+		padding-left: 27px;
+	}
+
+	.booking__skill-icon {
+		width: 18px;
+	}
+
+	.booking__skill-text {
+		font-size: 20px;
+		padding-left: 15px;
+	}
+
+	.booking__paint {
+		top: 300px;
+	}
+
+	.booking__foto-max {
+		right: -125px;
+		bottom: -12px;
+	}
+
+	.booking__max-orlov-img-txt {
+		right: -23px;
+	}
+
+	.booking__text {
+		background-color: rgba(0,54,123,.5);
+	}
+
+	.for-you-grid__item:nth-of-type(1) {
+		height: 300px;
+	}
+
+	.credit {
+		display: block;
+	}
+
+	.credit__terms {
+		width: 75%;
+	}
+
+	.credit__howto {
+		width: 75%;
+	}
+
+	.help {
+		width: 75%;
+	}
+
+	.program-block__title {
+		width: 98.7%;
+	}
+
+	.program-block__result-title {
+		width: 94.9%;
+	}
+
+	.program-block__theme-list {
+		width: 90%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.program-block__result-text {
+		width: 90%;
+	}
+
+	.program-block__number {
+		left: -92px;
+		top: 105px;
+		font-size: 31px;
+		background: none;
+		width: 152px;
+	}
+
+	.about-list {
+		flex-direction: column;
+	}
+
+	.about-list__item {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.about__text {
+		padding: 0;
+	}
+
+	.footer {
+		flex-direction: column;
+	}
+
+	.mob {
+		display: block;
+	}
+
+	.comp {
+		display: none;
+	}
+	height: 50vw;
+}
+
+@media all and (max-width:415px) {
+	.header__content {
+		display: block;
+	}
+
+	.header__start-date {
+		padding-bottom: 5px;
+		padding-left: 15px;
+	}
+
+	.header__duration {
+		padding-left: 15px;
+		padding-top: 0;
+	}
+
+	.booking__format {
+		font-size: 17px;
+		gap: 7px;
+	}
+
+	.booking__course-mname {
+		font-size: 44px;
+		letter-spacing: 2px;
+	}
+
+	.booking__course-name {
+		padding-top: 15px;
+	}
+
+	.booking__about {
+		letter-spacing: 1.2px;
+		padding-left: 6px;
+	}
+
+	.booking__ready {
+		padding-left: 0;
+		letter-spacing: 5px;
+		text-align: center;
+	}
+
+	.booking__button {
+		padding: 20px 40px 20px 40px;
+	}
+
+	.for-you-grid__item {
+		animation-delay: 0.1s;
+	}
+
+	.program-block__result-text {
+		font-size: 20px;
+	}
+
+	.case__photo {
+		height: 70vw;
+	}
+}
+
+@media all and (max-width:380px) {
+	.booking__format {
+		padding-left: 8px;
+	}
+
+	.booking__academy-name {
+		font-size: 13px;
+		padding-left: 8px;
+		letter-spacing: 5.3px;
+	}
+
+	.booking__course-name {
+		font-size: 53px;
+		padding-left: 5px;
+	}
+
+	.booking__about {
+		font-size: 17px;
+		padding-left: 8px;
+	}
+
+	.booking__skills {
+		padding-left: 10px;
+	}
+
+	.booking__skill-icon {
+		width: 14px;
+	}
+
+	.booking__skill-text {
+		font-size: 18px;
+		padding-left: 10px;
+	}
+
+	.booking__text {
+		font-size: 16px;
+		padding-left: 8px;
+		background-color: rgba(0,54,123,.5);
+	}
+
+	.booking__paint {
+		right: -199px;
+		top: 360px;
+	}
+
+	.booking__foto-max {
+		right: -163px;
+		bottom: -22px;
+	}
+
+	.booking__max-orlov-img-txt {
+		right: -41px;
+		bottom: 60px;
+	}
+}
+
+@media all and (max-width:320px) {
+	.for-you-grid__container {
+		grid-template-columns: minmax(min-content,max-content);
+		padding-top: 64px;
+		padding-right: 5vw;
+		padding-left: 5vw;
+		grid-gap: 3.7vw;
+	}
+}
+
+
+/*----------------adaptating-----------*/
+
+.format__include-kolichestvo_nth_first {
+  padding-bottom: 1em;
+}
+
+.include-list_size_small {
+  padding-bottom: 4.5em;
+}
+
 @font-face {
 	font-family: 'AvenirNext';
     font-style:  normal;
@@ -1769,31 +1951,6 @@ summary:focus {
     font-display: swap;
     src: url("../fonts/rub.woff2") format("woff2"),
          url("../fonts/rub.woff") format("woff");
-}
-
-.color_black {
-	color: #000 !important;
-}
-
-.color_red {
-	text-decoration: none;
-	color: red !important;
-	text-align: center;
-}
-
-.format__price-text_justnow {
-	margin-top: -30px;
-}
-
-
-/*----------------adaptating-----------*/
-
-.format__include-kolichestvo_nth_first {
-  padding-bottom: 1em;
-}
-
-.include-list_size_small {
-  padding-bottom: 4.5em;
 }
 
 /*
