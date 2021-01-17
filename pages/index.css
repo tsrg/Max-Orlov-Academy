@@ -1643,6 +1643,15 @@ summary:focus {
 	.about__photo {
 		height: 20vw;
 	}
+
+	.popup-viwer {
+		padding-top: 30px;
+	}
+
+	.popup-close {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 }
 
 @media all and (max-width:570px) {
